@@ -76,7 +76,7 @@ We take security seriously:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/AsVit-Diagnostic-Collector.git
+git clone https://github.com/AsVit/AsVit-Diagnostic-Collector.git
 cd AsVit-Diagnostic-Collector
 
 # Make the launcher executable
