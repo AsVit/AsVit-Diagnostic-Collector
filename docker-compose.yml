@@ -1,0 +1,14 @@
+services:
+  diagnostic:
+    build: .
+    container_name: asvit-diagnostic
+    user: root
+    volumes:
+      - /:/hostfs:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./output:/output
+    network_mode: host
+    ipc: host
+    stdin_open: true
+    tty: true
+    command: ["--help"]

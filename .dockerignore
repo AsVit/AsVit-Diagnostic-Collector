@@ -1,0 +1,6 @@
+.git
+README.md
+LICENSE
+output/
+*.tar.gz
+StartDiag.sh

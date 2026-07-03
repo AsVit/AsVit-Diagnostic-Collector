@@ -1,0 +1,18 @@
+# Output directory with diagnostic reports
+output/
+*.tar.gz
+*.sha256
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log
